@@ -20,9 +20,9 @@ app_num=os.getenv('APP_NUM')
 config = {
          'allstart': 0,
          'rounds': 1,
-         'rounds_delay': [0,0,5],
-         'api_delay': [0,0,5],
-         'app_delay': [0,0,5],
+         'rounds_delay': [1,10,50],
+         'api_delay': [1,0,5],
+         'app_delay': [1,0,5],
          }        
 if app_num == '':
     app_num = '1'
