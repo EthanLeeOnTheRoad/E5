@@ -8,6 +8,15 @@ from nacl import encoding, public
 app_num=os.getenv('APP_NUM')
 if app_num == '':
     app_num='1'
+
+############################################################################################################
+# GH_TOKEN: Github Token -> 从账户的Settings/Developer Settings/Personal access tokens (classic) 生成
+# CLIENT_SECRET: Certificates & secrets -> Value (RClone 中也会用到）
+# CLIENT_ID: Overview -> Application (client) ID (RClone 中也会用到）
+# MS_TOKEN: Microsoft Token -> 通过RClone 获得的 refresh token
+############################################################################################################
+
+
 gh_token=os.getenv('GH_TOKEN')
 gh_repo=os.getenv('GH_REPO')
 #ms_token=os.getenv('MS_TOKEN')
