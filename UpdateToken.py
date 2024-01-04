@@ -11,6 +11,9 @@ if app_num == '':
 
 ############################################################################################################
 # GH_TOKEN: Github Token -> 从账户的Settings/Developer Settings/Personal access tokens (classic) 生成
+# 
+# https://portal.azure.com/#home
+# -> Manage Microsoft Entra ID  -> View -> App registrations  -> The APP
 # CLIENT_SECRET: Certificates & secrets -> Value (RClone 中也会用到）
 # CLIENT_ID: Overview -> Application (client) ID (RClone 中也会用到）
 # MS_TOKEN: Microsoft Token -> 通过RClone 获得的 refresh token
